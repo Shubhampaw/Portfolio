@@ -11,7 +11,7 @@ Skills used: Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions, 
 
 
 
----**** DEATHS ANALYSIS ****---
+---**** INFECTION AND DEATHS ANALYSIS ****---
 
 
 
