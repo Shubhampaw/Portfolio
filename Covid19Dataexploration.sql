@@ -147,7 +147,7 @@ FROM PopsvsVacs WHERE PopsvsVacs.new_vaccinations is not null
 Order by Percent_vaccinated desc
 
 
---- Created view which inlcudes Running total to use it later
+--- Created view which inlcudes Running total to use it later in visualitzation
 
 Create View PercentpopulationvaccinatedGlobal as
 
