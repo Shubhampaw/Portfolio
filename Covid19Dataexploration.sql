@@ -43,7 +43,7 @@ WHERE continent is not null
 GROUP BY location
 ORDER BY total_deaths DESC
 
--- Maximum (not total) deaths for different continents
+-- Maximum  deaths for different continents
 
 SELECT continent, Max(cast(total_deaths as int)) as Maximum_deaths
 FROM CovidDeaths 
@@ -52,7 +52,7 @@ GROUP BY continent
 ORDER BY Maximum_deaths DESC
 
 
--- Maximum (not total) deaths for different Countries in Asia
+-- Maximum deaths for different Countries in Asia
 
 SELECT continent, location, Max(cast(total_deaths as int)) as Maximum_deaths
 FROM CovidDeaths 
